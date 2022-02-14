@@ -1,0 +1,11 @@
+.main{
+    grid-template-rows: 1fr 1fr;
+}
+
+.photo{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img1{
+
+}
