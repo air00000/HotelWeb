@@ -9,25 +9,11 @@
   min-height: 100%;
   box-shadow: 0 0 5px rgba(0,0,0,0.5);
   display: grid;
-  grid-template: minmax(50px, auto) 1fr minmax(70px, auto) / 1fr;
+  grid-template: minmax(40px, auto) 1fr minmax(70px, auto) / 1fr;
   grid-template-areas:
   "header"
   "main"
   "footer";
-}
-
-.header{
-  grid-area: header;
-  display: grid;
-  grid-template-columns: 76% 10% 7% 7%;
-}
-
-.book{
-  grid-column-start: 3;
-}
-
-.name{
-
 }
 
 .main{
@@ -46,10 +32,6 @@
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
 }
 
-.img1 {
-  max-width: 100%;
-  margin-top: 5%;
-}
 
 .img{
   max-width: 100%;

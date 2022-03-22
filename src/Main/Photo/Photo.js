@@ -1,12 +1,12 @@
 import React from 'react'
-import "./Photo.module.css"
+import s from "./Photo.module.css"
 
 const Photo = () => {
     return(
-        <div className="photo">
-            <img className="img" src="https://images.wallpaperscraft.ru/image/single/rozy_butony_tsvety_249136_300x225.jpg"/>
-            <img className="img" src="https://images.wallpaperscraft.ru/image/single/rozy_butony_tsvety_249136_300x225.jpg"/>
-            <img className="img" src="https://images.wallpaperscraft.ru/image/single/rozy_butony_tsvety_249136_300x225.jpg"/>
+        <div className={s.photo}>
+            <img className={s.img} src="https://images.wallpaperscraft.ru/image/single/rozy_butony_tsvety_249136_300x225.jpg"/>
+            <img className={s.img} src="https://images.wallpaperscraft.ru/image/single/rozy_butony_tsvety_249136_300x225.jpg"/>
+            <img className={s.img} src="https://images.wallpaperscraft.ru/image/single/rozy_butony_tsvety_249136_300x225.jpg"/>
         </div>
     )
 }
